@@ -1,0 +1,146 @@
+/* section 1 */
+.s1_slider {
+  overflow: hidden;
+  height: 80vh;
+  position: relative;
+}
+#section1 > .carousel-root {
+  padding: 0 !important;
+}
+
+.s1_slider > .overlay {
+  background-color: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.s1_slider > p {
+  position: absolute;
+  color: white;
+  top: 0;
+  transform: translate(80px, 20em);
+  transition: all 2500ms ease;
+  opacity: 0;
+}
+
+.s1_slider > h1 {
+  position: absolute;
+  transition: all 1000ms ease;
+  top: 0;
+  transform: translate(80px, 6em);
+  color: white;
+  opacity: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .s1_slider {
+    height: fit-content;
+  }
+
+  .s1_slider > p {
+    display: none;
+  }
+}
+
+/* section 2 */
+.s2-cta {
+  color: blue;
+  opacity: 0.8;
+}
+.s2-cta:hover {
+  opacity: 1;
+}
+
+/* section 3 */
+
+.s3-left > div {
+  background-color: white;
+  position: relative;
+}
+
+.s3-quote {
+  position: absolute;
+  top: -15px;
+  left: 50%;
+  width: 30px;
+  height: 30px;
+  background-color: #fff;
+  color: gray;
+  border-radius: 50%;
+  border: 1px gray solid;
+}
+
+.s3-img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+
+/* section 4 */
+
+.s4-li {
+  padding: 10px;
+  border-bottom: 1px grey solid;
+}
+.s4-li > a {
+  color: #910b0b !important;
+}
+
+.s4-li > a:hover {
+  text-decoration: underline !important;
+}
+
+.s4-slide {
+  height: 300px;
+  position: relative;
+}
+
+.s4-slide > img {
+  height: 100%;
+}
+
+.s4-slide > .overlay {
+  background-color: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  color: #fff;
+  padding: 0 50px;
+}
+
+.s4-slide > .overlay:hover {
+  background-color: #fff;
+}
+.s4-slide > .overlay > p {
+  font-size: 14px;
+}
+
+.s4-slide > .overlay > button {
+  background-color: transparent;
+  border: #fff 1px solid;
+  border-radius: 15px;
+  color: #fff;
+  cursor: pointer;
+  width: 100px;
+  transition: all 0.3s ease;
+}
+.s4-slide:hover > .overlay > button {
+  background-color: #fff;
+}
+
+/* section 5 */
+.s5-row > * {
+  padding: 0 !important;
+}
+
+/* section 6 */
+
+.s6-infos > p {
+  color: #fff;
+  font-size: 1.3em;
+}

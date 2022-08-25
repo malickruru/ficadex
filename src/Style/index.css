@@ -1,0 +1,33 @@
+@import url("responsive.css");
+@import url("Header.css");
+@import url("Card.css");
+@import url("Sections.css");
+@import url("Number.css");
+
+/*font*/
+/*open sans*/
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: "Open sans";
+}
+
+a {
+  text-decoration: none !important;
+  color: black !important;
+}
+
+.click {
+  cursor: pointer;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}

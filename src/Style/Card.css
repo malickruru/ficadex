@@ -1,0 +1,46 @@
+.ProductCard-img {
+  position: relative;
+  height: 200px;
+  width: 300px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.ProductCard-img > img {
+  width: 100%;
+  transition: all 0.3s ease;
+}
+
+.ProductCard-img:hover > img {
+  transform: scale(1.5);
+}
+.ProductCard-img:hover > .ProductCard-img-anim {
+  opacity: 1;
+}
+
+.ProductCard-img:hover > .ProductCard-img-anim > h6 {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.ProductCard-img-anim {
+  position: absolute;
+  background-color: #910b0b85;
+  color: #fff;
+  opacity: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transition: all 0.7s ease;
+  text-align: center;
+}
+.ProductCard-img-anim > h6 {
+  opacity: 0;
+  transform: translateX(-20px);
+  transition: all 0.9s ease;
+}
+.ProductCard {
+  width: 50%;
+  margin: auto;
+}

@@ -1,0 +1,100 @@
+@property --num {
+  syntax: "<integer>";
+  initial-value: 0;
+  inherits: false;
+}
+
+[data-aos="counter1"]::after {
+  content: counter(num);
+}
+
+[data-aos="counter1"].aos-animate {
+  animation: counter 3s 1 ease-in-out;
+  counter-reset: num var(--num);
+  font: 800 40px system-ui;
+  animation-fill-mode: forwards;
+  padding: 2rem;
+  color: #35bbaa;
+}
+
+/* [data-aos="counter1"].aos-animate {
+  --num: 100;
+} */
+
+@keyframes counter {
+  from {
+    --num: 0;
+  }
+  to {
+    --num: 40;
+  }
+}
+
+/* counter 2 */
+[data-aos="counter2"]::after {
+  content: counter(num);
+}
+
+[data-aos="counter2"].aos-animate {
+  animation: counter2 2s 1 ease-in-out;
+  counter-reset: num var(--num);
+  font: 800 40px system-ui;
+  animation-fill-mode: forwards;
+  padding: 2rem;
+  color: #815ab4;
+}
+
+@keyframes counter2 {
+  from {
+    --num: 0;
+  }
+  to {
+    --num: 6000;
+  }
+}
+
+/* counter 3 */
+[data-aos="counter3"]::after {
+  content: counter(num);
+}
+
+[data-aos="counter3"].aos-animate {
+  animation: counter3 3s 1 ease-in-out;
+  counter-reset: num var(--num);
+  font: 800 40px system-ui;
+  animation-fill-mode: forwards;
+  padding: 2rem;
+  color: #ef6462;
+}
+
+@keyframes counter3 {
+  from {
+    --num: 0;
+  }
+  to {
+    --num: 260;
+  }
+}
+
+/* counter 4*/
+[data-aos="counter4"]::after {
+  content: counter(num);
+}
+
+[data-aos="counter4"].aos-animate {
+  animation: counter4 3s 1 ease-in-out;
+  counter-reset: num var(--num);
+  font: 800 40px system-ui;
+  animation-fill-mode: forwards;
+  padding: 2rem;
+  color: #2caaca;
+}
+
+@keyframes counter4 {
+  from {
+    --num: 0;
+  }
+  to {
+    --num: 36;
+  }
+}

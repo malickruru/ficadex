@@ -1,0 +1,37 @@
+#header {
+  position: relative;
+}
+
+.Header-logo {
+  width: 120px;
+  height: 80px;
+}
+
+.Header-link {
+  padding: 0 10px;
+  font-family: "Open sans";
+  font-weight: 550;
+  font-size: 15px;
+  opacity: 0.6;
+}
+
+.Header-link:hover {
+  opacity: 0.4;
+}
+
+.Header-link.active {
+  color: #910b0b !important;
+  opacity: 1;
+}
+
+.Header-search {
+  font-size: 17px;
+}
+.Header-search:hover {
+  color: #910b0b;
+}
+
+.Header-burgerMenu {
+  font-size: 30px;
+  color: #910b0b;
+}
