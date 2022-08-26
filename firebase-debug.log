@@ -1,0 +1,255 @@
+[debug] [2022-08-25T23:01:03.098Z] ----------------------------------------------------------------------
+[debug] [2022-08-25T23:01:03.103Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\RUBENS\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js login
+[debug] [2022-08-25T23:01:03.104Z] CLI Version:   11.8.0
+[debug] [2022-08-25T23:01:03.104Z] Platform:      win32
+[debug] [2022-08-25T23:01:03.105Z] Node Version:  v18.7.0
+[debug] [2022-08-25T23:01:03.107Z] Time:          Thu Aug 25 2022 23:01:03 GMT+0000 (heure moyenne de Greenwich)
+[debug] [2022-08-25T23:01:03.108Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-08-25T23:01:03.465Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[info] Already logged in as rubs99rstd@gmail.com
+[debug] [2022-08-25T23:01:04.642Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2022-08-25T23:01:04.643Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[debug] [2022-08-25T23:01:13.639Z] Error: Timed out.
+    at Timeout._onTimeout (C:\Users\RUBENS\AppData\Roaming\npm\node_modules\firebase-tools\lib\utils.js:253:49)
+    at listOnTimeout (node:internal/timers:564:17)
+    at process.processTimers (node:internal/timers:507:7)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2022-08-25T23:02:14.686Z] ----------------------------------------------------------------------
+[debug] [2022-08-25T23:02:14.690Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\RUBENS\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js login
+[debug] [2022-08-25T23:02:14.691Z] CLI Version:   11.8.0
+[debug] [2022-08-25T23:02:14.692Z] Platform:      win32
+[debug] [2022-08-25T23:02:14.692Z] Node Version:  v18.7.0
+[debug] [2022-08-25T23:02:14.694Z] Time:          Thu Aug 25 2022 23:02:14 GMT+0000 (heure moyenne de Greenwich)
+[debug] [2022-08-25T23:02:14.695Z] ----------------------------------------------------------------------
+[debug] 
+[info] Already logged in as rubs99rstd@gmail.com
+[debug] [2022-08-25T23:02:24.856Z] Error: Timed out.
+    at Timeout._onTimeout (C:\Users\RUBENS\AppData\Roaming\npm\node_modules\firebase-tools\lib\utils.js:253:49)
+    at listOnTimeout (node:internal/timers:564:17)
+    at process.processTimers (node:internal/timers:507:7)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2022-08-25T23:03:29.789Z] ----------------------------------------------------------------------
+[debug] [2022-08-25T23:03:29.794Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\RUBENS\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-08-25T23:03:29.795Z] CLI Version:   11.8.0
+[debug] [2022-08-25T23:03:29.796Z] Platform:      win32
+[debug] [2022-08-25T23:03:29.796Z] Node Version:  v18.7.0
+[debug] [2022-08-25T23:03:29.800Z] Time:          Thu Aug 25 2022 23:03:29 GMT+0000 (heure moyenne de Greenwich)
+[debug] [2022-08-25T23:03:29.800Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-08-25T23:03:29.825Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-08-25T23:03:29.826Z] > authorizing via signed-in user (rubs99rstd@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\RUBENS\Documents\Komptech\ficadex
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-08-25T23:05:38.927Z] > refreshing access token with scopes: []
+[debug] [2022-08-25T23:05:38.931Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2022-08-25T23:05:38.932Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2022-08-25T23:05:41.697Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2022-08-25T23:05:41.697Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2022-08-25T23:05:42.054Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2022-08-25T23:05:43.276Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2022-08-25T23:05:43.276Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project ficadex-c3633 (ficadex) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2022-08-25T23:15:40.172Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2022-08-25T23:15:40.902Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2022-08-25T23:15:40.903Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"9.9.3","browserURL":"https://www.gstatic.com/firebasejs/9.9.3/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/9.9.3/firebase.tgz"},"live":{"version":"9.9","browserURL":"https://www.gstatic.com/firebasejs/live/9.9/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/9.9/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/9.9.3/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/9.9.3/firebase-app.js","app-check":"https://www.gstatic.com/firebasejs/9.9.3/firebase-app-check.js","auth":"https://www.gstatic.com/firebasejs/9.9.3/firebase-auth.js","auth/cordova":"https://www.gstatic.com/firebasejs/9.9.3/firebase-auth/cordova.js","auth/react-native":"https://www.gstatic.com/firebasejs/9.9.3/firebase-auth/react-native.js","functions":"https://www.gstatic.com/firebasejs/9.9.3/firebase-functions.js","firestore":"https://www.gstatic.com/firebasejs/9.9.3/firebase-firestore.js","firestore/lite":"https://www.gstatic.com/firebasejs/9.9.3/firebase-firestore/lite.js","installations":"https://www.gstatic.com/firebasejs/9.9.3/firebase-installations.js","storage":"https://www.gstatic.com/firebasejs/9.9.3/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/9.9.3/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/9.9.3/firebase-remote-config.js","messaging":"https://www.gstatic.com/firebasejs/9.9.3/firebase-messaging.js","messaging/sw":"https://www.gstatic.com/firebasejs/9.9.3/firebase-messaging/sw.js","database":"https://www.gstatic.com/firebasejs/9.9.3/firebase-database.js","firestore.memory":"https://www.gstatic.com/firebasejs/9.9.3/firebase-firestore.memory.js"}}
+[info] i  Skipping write of build/index.html 
+[info] 
+[info] i  Writing configuration info to firebase.json... 
+[info] i  Writing project information to .firebaserc... 
+[info] 
+[info] +  Firebase initialization complete! 
+[debug] [2022-08-25T23:15:55.970Z] Error: Timed out.
+    at Timeout._onTimeout (C:\Users\RUBENS\AppData\Roaming\npm\node_modules\firebase-tools\lib\utils.js:253:49)
+    at listOnTimeout (node:internal/timers:564:17)
+    at process.processTimers (node:internal/timers:507:7)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2022-08-25T23:18:21.071Z] ----------------------------------------------------------------------
+[debug] [2022-08-25T23:18:21.075Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\RUBENS\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2022-08-25T23:18:21.076Z] CLI Version:   11.8.0
+[debug] [2022-08-25T23:18:21.077Z] Platform:      win32
+[debug] [2022-08-25T23:18:21.077Z] Node Version:  v18.7.0
+[debug] [2022-08-25T23:18:21.079Z] Time:          Thu Aug 25 2022 23:18:21 GMT+0000 (heure moyenne de Greenwich)
+[debug] [2022-08-25T23:18:21.080Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-08-25T23:18:21.329Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-08-25T23:18:21.330Z] > authorizing via signed-in user (rubs99rstd@gmail.com)
+[debug] [2022-08-25T23:18:21.331Z] [iam] checking project ficadex-c3633 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2022-08-25T23:18:21.336Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/ficadex-c3633:testIamPermissions [none]
+[debug] [2022-08-25T23:18:21.336Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/ficadex-c3633:testIamPermissions x-goog-quota-user=projects/ficadex-c3633
+[debug] [2022-08-25T23:18:21.337Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/ficadex-c3633:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2022-08-25T23:18:22.800Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/ficadex-c3633:testIamPermissions 200
+[debug] [2022-08-25T23:18:22.800Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/ficadex-c3633:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2022-08-25T23:18:22.803Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/ficadex-c3633 [none]
+[debug] [2022-08-25T23:18:23.851Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/ficadex-c3633 200
+[debug] [2022-08-25T23:18:23.851Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/ficadex-c3633 {"projectId":"ficadex-c3633","projectNumber":"363856009923","displayName":"ficadex","name":"projects/ficadex-c3633","resources":{"hostingSite":"ficadex-c3633"},"state":"ACTIVE","etag":"1_5599c3ef-26a5-4568-bf77-856fdf7663c0"}
+[info] 
+[info] === Deploying to 'ficadex-c3633'...
+[info] 
+[info] i  deploying hosting 
+[debug] [2022-08-25T23:18:23.861Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/ficadex-c3633 [none]
+[debug] [2022-08-25T23:18:24.637Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/ficadex-c3633 200
+[debug] [2022-08-25T23:18:24.638Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/ficadex-c3633 {"projectId":"ficadex-c3633","projectNumber":"363856009923","displayName":"ficadex","name":"projects/ficadex-c3633","resources":{"hostingSite":"ficadex-c3633"},"state":"ACTIVE","etag":"1_5599c3ef-26a5-4568-bf77-856fdf7663c0"}
+[debug] [2022-08-25T23:18:24.648Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/projects/363856009923/sites/ficadex-c3633/versions [none]
+[debug] [2022-08-25T23:18:24.648Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/363856009923/sites/ficadex-c3633/versions {"config":{"rewrites":[{"glob":"**","path":"/index.html"}]},"labels":{"deployment-tool":"cli-firebase"}}
+[debug] [2022-08-25T23:18:26.851Z] <<< [apiv2][status] POST https://firebasehosting.googleapis.com/v1beta1/projects/363856009923/sites/ficadex-c3633/versions 200
+[debug] [2022-08-25T23:18:26.851Z] <<< [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/363856009923/sites/ficadex-c3633/versions {"name":"projects/363856009923/sites/ficadex-c3633/versions/fc327dbd581fff3f","status":"CREATED","config":{"rewrites":[{"glob":"**","path":"/index.html"}]},"labels":{"deployment-tool":"cli-firebase"}}
+[info] i  hosting[ficadex-c3633]: beginning deploy... 
+[info] i  hosting[ficadex-c3633]: found 18 files in build 
+[debug] [2022-08-25T23:18:26.892Z] [hosting] uploading with 200 concurrency
+[debug] [2022-08-25T23:18:26.895Z] [hosting] hash cache [YnVpbGQ] not populated
+[debug] [2022-08-25T23:18:27.695Z] [hosting] hash cache [YnVpbGQ] stored for 18 files
+[debug] [2022-08-25T23:18:27.695Z] [hosting][hash queue][FINAL] {"max":749,"min":251,"avg":315.94444444444434,"active":0,"complete":18,"success":18,"errored":0,"retried":0,"total":18,"elapsed":793}
+[debug] [2022-08-25T23:18:27.696Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/projects/363856009923/sites/ficadex-c3633/versions/fc327dbd581fff3f:populateFiles [none]
+[debug] [2022-08-25T23:18:27.696Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/363856009923/sites/ficadex-c3633/versions/fc327dbd581fff3f:populateFiles {"files":{"/logo512.png":"ee7e2f3fdb8209c4b6fd7bef6ba50d1b9dba30a25bb5c3126df057e1cb6f5331","/manifest.json":"aff3449bdc238776f5d6d967f19ec491b36aed5fb7f23ccff6500736fd58494a","/robots.txt":"bfe106a3fb878dc83461c86818bf74fc1bdc7f28538ba613cd3e775516ce8b49","/image/ficadex_groupe.png":"a48d9bfbab29b794d9728a29fbb8f2f1c581305f911d233e75c066f356040d84","/logo192.png":"3ee59515172ee198f3be375979df15ac5345183e656720a381b8872b2a39dc8b","/static/js/787.0f189f2c.chunk.js":"859232ac4935179a867639c38914bd39f930837836ef1e65c2e96a737e91812c","/static/js/787.0f189f2c.chunk.js.map":"ef696faeae94a6db254ac625df3b15bff5a0b421991abd33e152cfb7771e6293","/static/js/main.3208c685.js.LICENSE.txt":"c295b85297a58f3daa2dff41ef3bd0edbf407967ac59264ece952c1a93f22391","/asset-manifest.json":"94670fe5ffc6746f081d88d180f636ac5a594dc0130546e3fae6932ebe0e30a0","/favicon.ico":"eae62e993eb980ec8a25058c39d5a51feab118bd2100c4deebb2a9c158ec11f9","/image/Section1/img3.webp":"73f35cb9431375252675646144299c8aa71dc7780b074930780bb0e7d03efbe7","/static/css/main.5c56872f.css":"ba06609b09f84e9d37f707d2a44fa8931a8daed10c3f115f5b14e9b6870d598d","/image/Section1/img2.webp":"ed18c1d33abe134f213813c546edd66b0f8f5c1a271d6ab378752ab616009964","/image/Section1/img1.jpeg":"c59dd3a4cec89946f36ad9ddc712b2e48db447fb34af309b88d8341c666d1ab9","/static/js/main.3208c685.js":"58d94bf8ba89c4db207da83fecf86739502a81bc978c0ec4b1c921cfeccc34aa","/static/css/main.5c56872f.css.map":"a3f35ad539c6f3080ec349cf24419fe0ceca9fbf367545bd8ca911597b22e0d2","/index.html":"f83cabf654dafde76479db471ce67499bd5b047c971ab75cb63927d83534df1e","/static/js/main.3208c685.js.map":"43bb2e4ecab5f52b4cdd7f956ce6795d25c9167b1fcef7144657ca1994c269b5"}}
+[debug] [2022-08-25T23:18:29.101Z] <<< [apiv2][status] POST https://firebasehosting.googleapis.com/v1beta1/projects/363856009923/sites/ficadex-c3633/versions/fc327dbd581fff3f:populateFiles 200
+[debug] [2022-08-25T23:18:29.102Z] <<< [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/363856009923/sites/ficadex-c3633/versions/fc327dbd581fff3f:populateFiles {"uploadRequiredHashes":["c295b85297a58f3daa2dff41ef3bd0edbf407967ac59264ece952c1a93f22391","ef696faeae94a6db254ac625df3b15bff5a0b421991abd33e152cfb7771e6293","bfe106a3fb878dc83461c86818bf74fc1bdc7f28538ba613cd3e775516ce8b49","94670fe5ffc6746f081d88d180f636ac5a594dc0130546e3fae6932ebe0e30a0","ee7e2f3fdb8209c4b6fd7bef6ba50d1b9dba30a25bb5c3126df057e1cb6f5331","ed18c1d33abe134f213813c546edd66b0f8f5c1a271d6ab378752ab616009964","a48d9bfbab29b794d9728a29fbb8f2f1c581305f911d233e75c066f356040d84","3ee59515172ee198f3be375979df15ac5345183e656720a381b8872b2a39dc8b","eae62e993eb980ec8a25058c39d5a51feab118bd2100c4deebb2a9c158ec11f9","43bb2e4ecab5f52b4cdd7f956ce6795d25c9167b1fcef7144657ca1994c269b5","f83cabf654dafde76479db471ce67499bd5b047c971ab75cb63927d83534df1e","58d94bf8ba89c4db207da83fecf86739502a81bc978c0ec4b1c921cfeccc34aa","ba06609b09f84e9d37f707d2a44fa8931a8daed10c3f115f5b14e9b6870d598d","a3f35ad539c6f3080ec349cf24419fe0ceca9fbf367545bd8ca911597b22e0d2","859232ac4935179a867639c38914bd39f930837836ef1e65c2e96a737e91812c","c59dd3a4cec89946f36ad9ddc712b2e48db447fb34af309b88d8341c666d1ab9","73f35cb9431375252675646144299c8aa71dc7780b074930780bb0e7d03efbe7","aff3449bdc238776f5d6d967f19ec491b36aed5fb7f23ccff6500736fd58494a"],"uploadUrl":"https://upload-firebasehosting.googleapis.com/upload/sites/ficadex-c3633/versions/fc327dbd581fff3f/files"}
+[debug] [2022-08-25T23:18:29.111Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/ficadex-c3633/versions/fc327dbd581fff3f/files/c295b85297a58f3daa2dff41ef3bd0edbf407967ac59264ece952c1a93f22391 [none]
+[debug] [2022-08-25T23:18:29.111Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/ficadex-c3633/versions/fc327dbd581fff3f/files/c295b85297a58f3daa2dff41ef3bd0edbf407967ac59264ece952c1a93f22391 [stream]
+[debug] [2022-08-25T23:18:29.114Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/ficadex-c3633/versions/fc327dbd581fff3f/files/ef696faeae94a6db254ac625df3b15bff5a0b421991abd33e152cfb7771e6293 [none]
+[debug] [2022-08-25T23:18:29.114Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/ficadex-c3633/versions/fc327dbd581fff3f/files/ef696faeae94a6db254ac625df3b15bff5a0b421991abd33e152cfb7771e6293 [stream]
+[debug] [2022-08-25T23:18:29.116Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/ficadex-c3633/versions/fc327dbd581fff3f/files/bfe106a3fb878dc83461c86818bf74fc1bdc7f28538ba613cd3e775516ce8b49 [none]
+[debug] [2022-08-25T23:18:29.117Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/ficadex-c3633/versions/fc327dbd581fff3f/files/bfe106a3fb878dc83461c86818bf74fc1bdc7f28538ba613cd3e775516ce8b49 [stream]
+[debug] [2022-08-25T23:18:29.119Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/ficadex-c3633/versions/fc327dbd581fff3f/files/94670fe5ffc6746f081d88d180f636ac5a594dc0130546e3fae6932ebe0e30a0 [none]
+[debug] [2022-08-25T23:18:29.119Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/ficadex-c3633/versions/fc327dbd581fff3f/files/94670fe5ffc6746f081d88d180f636ac5a594dc0130546e3fae6932ebe0e30a0 [stream]
+[debug] [2022-08-25T23:18:29.122Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/ficadex-c3633/versions/fc327dbd581fff3f/files/ee7e2f3fdb8209c4b6fd7bef6ba50d1b9dba30a25bb5c3126df057e1cb6f5331 [none]
+[debug] [2022-08-25T23:18:29.122Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/ficadex-c3633/versions/fc327dbd581fff3f/files/ee7e2f3fdb8209c4b6fd7bef6ba50d1b9dba30a25bb5c3126df057e1cb6f5331 [stream]
+[debug] [2022-08-25T23:18:29.125Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/ficadex-c3633/versions/fc327dbd581fff3f/files/ed18c1d33abe134f213813c546edd66b0f8f5c1a271d6ab378752ab616009964 [none]
+[debug] [2022-08-25T23:18:29.126Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/ficadex-c3633/versions/fc327dbd581fff3f/files/ed18c1d33abe134f213813c546edd66b0f8f5c1a271d6ab378752ab616009964 [stream]
+[debug] [2022-08-25T23:18:29.129Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/ficadex-c3633/versions/fc327dbd581fff3f/files/a48d9bfbab29b794d9728a29fbb8f2f1c581305f911d233e75c066f356040d84 [none]
+[debug] [2022-08-25T23:18:29.130Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/ficadex-c3633/versions/fc327dbd581fff3f/files/a48d9bfbab29b794d9728a29fbb8f2f1c581305f911d233e75c066f356040d84 [stream]
+[debug] [2022-08-25T23:18:29.134Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/ficadex-c3633/versions/fc327dbd581fff3f/files/3ee59515172ee198f3be375979df15ac5345183e656720a381b8872b2a39dc8b [none]
+[debug] [2022-08-25T23:18:29.134Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/ficadex-c3633/versions/fc327dbd581fff3f/files/3ee59515172ee198f3be375979df15ac5345183e656720a381b8872b2a39dc8b [stream]
+[debug] [2022-08-25T23:18:29.141Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/ficadex-c3633/versions/fc327dbd581fff3f/files/eae62e993eb980ec8a25058c39d5a51feab118bd2100c4deebb2a9c158ec11f9 [none]
+[debug] [2022-08-25T23:18:29.141Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/ficadex-c3633/versions/fc327dbd581fff3f/files/eae62e993eb980ec8a25058c39d5a51feab118bd2100c4deebb2a9c158ec11f9 [stream]
+[debug] [2022-08-25T23:18:29.145Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/ficadex-c3633/versions/fc327dbd581fff3f/files/43bb2e4ecab5f52b4cdd7f956ce6795d25c9167b1fcef7144657ca1994c269b5 [none]
+[debug] [2022-08-25T23:18:29.145Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/ficadex-c3633/versions/fc327dbd581fff3f/files/43bb2e4ecab5f52b4cdd7f956ce6795d25c9167b1fcef7144657ca1994c269b5 [stream]
+[debug] [2022-08-25T23:18:29.149Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/ficadex-c3633/versions/fc327dbd581fff3f/files/f83cabf654dafde76479db471ce67499bd5b047c971ab75cb63927d83534df1e [none]
+[debug] [2022-08-25T23:18:29.150Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/ficadex-c3633/versions/fc327dbd581fff3f/files/f83cabf654dafde76479db471ce67499bd5b047c971ab75cb63927d83534df1e [stream]
+[debug] [2022-08-25T23:18:29.152Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/ficadex-c3633/versions/fc327dbd581fff3f/files/58d94bf8ba89c4db207da83fecf86739502a81bc978c0ec4b1c921cfeccc34aa [none]
+[debug] [2022-08-25T23:18:29.152Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/ficadex-c3633/versions/fc327dbd581fff3f/files/58d94bf8ba89c4db207da83fecf86739502a81bc978c0ec4b1c921cfeccc34aa [stream]
+[debug] [2022-08-25T23:18:29.156Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/ficadex-c3633/versions/fc327dbd581fff3f/files/ba06609b09f84e9d37f707d2a44fa8931a8daed10c3f115f5b14e9b6870d598d [none]
+[debug] [2022-08-25T23:18:29.156Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/ficadex-c3633/versions/fc327dbd581fff3f/files/ba06609b09f84e9d37f707d2a44fa8931a8daed10c3f115f5b14e9b6870d598d [stream]
+[debug] [2022-08-25T23:18:29.160Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/ficadex-c3633/versions/fc327dbd581fff3f/files/a3f35ad539c6f3080ec349cf24419fe0ceca9fbf367545bd8ca911597b22e0d2 [none]
+[debug] [2022-08-25T23:18:29.160Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/ficadex-c3633/versions/fc327dbd581fff3f/files/a3f35ad539c6f3080ec349cf24419fe0ceca9fbf367545bd8ca911597b22e0d2 [stream]
+[debug] [2022-08-25T23:18:29.163Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/ficadex-c3633/versions/fc327dbd581fff3f/files/859232ac4935179a867639c38914bd39f930837836ef1e65c2e96a737e91812c [none]
+[debug] [2022-08-25T23:18:29.163Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/ficadex-c3633/versions/fc327dbd581fff3f/files/859232ac4935179a867639c38914bd39f930837836ef1e65c2e96a737e91812c [stream]
+[debug] [2022-08-25T23:18:29.166Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/ficadex-c3633/versions/fc327dbd581fff3f/files/c59dd3a4cec89946f36ad9ddc712b2e48db447fb34af309b88d8341c666d1ab9 [none]
+[debug] [2022-08-25T23:18:29.166Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/ficadex-c3633/versions/fc327dbd581fff3f/files/c59dd3a4cec89946f36ad9ddc712b2e48db447fb34af309b88d8341c666d1ab9 [stream]
+[debug] [2022-08-25T23:18:29.168Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/ficadex-c3633/versions/fc327dbd581fff3f/files/73f35cb9431375252675646144299c8aa71dc7780b074930780bb0e7d03efbe7 [none]
+[debug] [2022-08-25T23:18:29.168Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/ficadex-c3633/versions/fc327dbd581fff3f/files/73f35cb9431375252675646144299c8aa71dc7780b074930780bb0e7d03efbe7 [stream]
+[debug] [2022-08-25T23:18:29.172Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/ficadex-c3633/versions/fc327dbd581fff3f/files/aff3449bdc238776f5d6d967f19ec491b36aed5fb7f23ccff6500736fd58494a [none]
+[debug] [2022-08-25T23:18:29.172Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/ficadex-c3633/versions/fc327dbd581fff3f/files/aff3449bdc238776f5d6d967f19ec491b36aed5fb7f23ccff6500736fd58494a [stream]
+[debug] [2022-08-25T23:18:29.174Z] [hosting][populate queue][FINAL] {"max":1422,"min":1422,"avg":1422,"active":0,"complete":1,"success":1,"errored":0,"retried":0,"total":1,"elapsed":1485}
+[debug] [2022-08-25T23:18:29.175Z] [hosting] uploads queued: 18
+[debug] [2022-08-25T23:18:31.058Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/ficadex-c3633/versions/fc327dbd581fff3f/files/eae62e993eb980ec8a25058c39d5a51feab118bd2100c4deebb2a9c158ec11f9 200
+[debug] [2022-08-25T23:18:31.058Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/ficadex-c3633/versions/fc327dbd581fff3f/files/eae62e993eb980ec8a25058c39d5a51feab118bd2100c4deebb2a9c158ec11f9 [stream]
+[debug] [2022-08-25T23:18:31.119Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/ficadex-c3633/versions/fc327dbd581fff3f/files/ef696faeae94a6db254ac625df3b15bff5a0b421991abd33e152cfb7771e6293 200
+[debug] [2022-08-25T23:18:31.119Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/ficadex-c3633/versions/fc327dbd581fff3f/files/ef696faeae94a6db254ac625df3b15bff5a0b421991abd33e152cfb7771e6293 [stream]
+[debug] [2022-08-25T23:18:31.150Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/ficadex-c3633/versions/fc327dbd581fff3f/files/859232ac4935179a867639c38914bd39f930837836ef1e65c2e96a737e91812c 200
+[debug] [2022-08-25T23:18:31.150Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/ficadex-c3633/versions/fc327dbd581fff3f/files/859232ac4935179a867639c38914bd39f930837836ef1e65c2e96a737e91812c [stream]
+[debug] [2022-08-25T23:18:31.169Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/ficadex-c3633/versions/fc327dbd581fff3f/files/ee7e2f3fdb8209c4b6fd7bef6ba50d1b9dba30a25bb5c3126df057e1cb6f5331 200
+[debug] [2022-08-25T23:18:31.170Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/ficadex-c3633/versions/fc327dbd581fff3f/files/ee7e2f3fdb8209c4b6fd7bef6ba50d1b9dba30a25bb5c3126df057e1cb6f5331 [stream]
+[debug] [2022-08-25T23:18:31.173Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/ficadex-c3633/versions/fc327dbd581fff3f/files/3ee59515172ee198f3be375979df15ac5345183e656720a381b8872b2a39dc8b 200
+[debug] [2022-08-25T23:18:31.173Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/ficadex-c3633/versions/fc327dbd581fff3f/files/3ee59515172ee198f3be375979df15ac5345183e656720a381b8872b2a39dc8b [stream]
+[debug] [2022-08-25T23:18:31.196Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/ficadex-c3633/versions/fc327dbd581fff3f/files/bfe106a3fb878dc83461c86818bf74fc1bdc7f28538ba613cd3e775516ce8b49 200
+[debug] [2022-08-25T23:18:31.196Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/ficadex-c3633/versions/fc327dbd581fff3f/files/bfe106a3fb878dc83461c86818bf74fc1bdc7f28538ba613cd3e775516ce8b49 [stream]
+[debug] [2022-08-25T23:18:31.230Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/ficadex-c3633/versions/fc327dbd581fff3f/files/a48d9bfbab29b794d9728a29fbb8f2f1c581305f911d233e75c066f356040d84 200
+[debug] [2022-08-25T23:18:31.230Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/ficadex-c3633/versions/fc327dbd581fff3f/files/a48d9bfbab29b794d9728a29fbb8f2f1c581305f911d233e75c066f356040d84 [stream]
+[debug] [2022-08-25T23:18:31.232Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/ficadex-c3633/versions/fc327dbd581fff3f/files/c295b85297a58f3daa2dff41ef3bd0edbf407967ac59264ece952c1a93f22391 200
+[debug] [2022-08-25T23:18:31.233Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/ficadex-c3633/versions/fc327dbd581fff3f/files/c295b85297a58f3daa2dff41ef3bd0edbf407967ac59264ece952c1a93f22391 [stream]
+[debug] [2022-08-25T23:18:31.264Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/ficadex-c3633/versions/fc327dbd581fff3f/files/aff3449bdc238776f5d6d967f19ec491b36aed5fb7f23ccff6500736fd58494a 200
+[debug] [2022-08-25T23:18:31.264Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/ficadex-c3633/versions/fc327dbd581fff3f/files/aff3449bdc238776f5d6d967f19ec491b36aed5fb7f23ccff6500736fd58494a [stream]
+[debug] [2022-08-25T23:18:31.291Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/ficadex-c3633/versions/fc327dbd581fff3f/files/73f35cb9431375252675646144299c8aa71dc7780b074930780bb0e7d03efbe7 200
+[debug] [2022-08-25T23:18:31.291Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/ficadex-c3633/versions/fc327dbd581fff3f/files/73f35cb9431375252675646144299c8aa71dc7780b074930780bb0e7d03efbe7 [stream]
+[debug] [2022-08-25T23:18:31.345Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/ficadex-c3633/versions/fc327dbd581fff3f/files/94670fe5ffc6746f081d88d180f636ac5a594dc0130546e3fae6932ebe0e30a0 200
+[debug] [2022-08-25T23:18:31.345Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/ficadex-c3633/versions/fc327dbd581fff3f/files/94670fe5ffc6746f081d88d180f636ac5a594dc0130546e3fae6932ebe0e30a0 [stream]
+[debug] [2022-08-25T23:18:31.423Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/ficadex-c3633/versions/fc327dbd581fff3f/files/ba06609b09f84e9d37f707d2a44fa8931a8daed10c3f115f5b14e9b6870d598d 200
+[debug] [2022-08-25T23:18:31.423Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/ficadex-c3633/versions/fc327dbd581fff3f/files/ba06609b09f84e9d37f707d2a44fa8931a8daed10c3f115f5b14e9b6870d598d [stream]
+[debug] [2022-08-25T23:18:31.448Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/ficadex-c3633/versions/fc327dbd581fff3f/files/f83cabf654dafde76479db471ce67499bd5b047c971ab75cb63927d83534df1e 200
+[debug] [2022-08-25T23:18:31.448Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/ficadex-c3633/versions/fc327dbd581fff3f/files/f83cabf654dafde76479db471ce67499bd5b047c971ab75cb63927d83534df1e [stream]
+[debug] [2022-08-25T23:18:31.583Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/ficadex-c3633/versions/fc327dbd581fff3f/files/ed18c1d33abe134f213813c546edd66b0f8f5c1a271d6ab378752ab616009964 200
+[debug] [2022-08-25T23:18:31.584Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/ficadex-c3633/versions/fc327dbd581fff3f/files/ed18c1d33abe134f213813c546edd66b0f8f5c1a271d6ab378752ab616009964 [stream]
+[debug] [2022-08-25T23:18:31.608Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/ficadex-c3633/versions/fc327dbd581fff3f/files/c59dd3a4cec89946f36ad9ddc712b2e48db447fb34af309b88d8341c666d1ab9 200
+[debug] [2022-08-25T23:18:31.608Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/ficadex-c3633/versions/fc327dbd581fff3f/files/c59dd3a4cec89946f36ad9ddc712b2e48db447fb34af309b88d8341c666d1ab9 [stream]
+[debug] [2022-08-25T23:18:31.612Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/ficadex-c3633/versions/fc327dbd581fff3f/files/58d94bf8ba89c4db207da83fecf86739502a81bc978c0ec4b1c921cfeccc34aa 200
+[debug] [2022-08-25T23:18:31.613Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/ficadex-c3633/versions/fc327dbd581fff3f/files/58d94bf8ba89c4db207da83fecf86739502a81bc978c0ec4b1c921cfeccc34aa [stream]
+[debug] [2022-08-25T23:18:31.672Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/ficadex-c3633/versions/fc327dbd581fff3f/files/a3f35ad539c6f3080ec349cf24419fe0ceca9fbf367545bd8ca911597b22e0d2 200
+[debug] [2022-08-25T23:18:31.672Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/ficadex-c3633/versions/fc327dbd581fff3f/files/a3f35ad539c6f3080ec349cf24419fe0ceca9fbf367545bd8ca911597b22e0d2 [stream]
+[debug] [2022-08-25T23:18:32.192Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/ficadex-c3633/versions/fc327dbd581fff3f/files/43bb2e4ecab5f52b4cdd7f956ce6795d25c9167b1fcef7144657ca1994c269b5 200
+[debug] [2022-08-25T23:18:32.192Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/ficadex-c3633/versions/fc327dbd581fff3f/files/43bb2e4ecab5f52b4cdd7f956ce6795d25c9167b1fcef7144657ca1994c269b5 [stream]
+[debug] [2022-08-25T23:18:32.193Z] [hosting][upload queue][FINAL] {"max":3085,"min":1951,"avg":2269.3888888888887,"active":0,"complete":18,"success":18,"errored":0,"retried":0,"total":18,"elapsed":3091}
+[info] +  hosting[ficadex-c3633]: file upload complete 
+[debug] [2022-08-25T23:18:32.195Z] [hosting] deploy completed after 5340ms
+[debug] [2022-08-25T23:18:32.200Z] [
+  {
+    "config": {
+      "public": "build",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ],
+      "site": "ficadex-c3633"
+    },
+    "site": "ficadex-c3633",
+    "version": "projects/363856009923/sites/ficadex-c3633/versions/fc327dbd581fff3f"
+  }
+]
+[info] i  hosting[ficadex-c3633]: finalizing version... 
+[debug] [2022-08-25T23:18:32.205Z] >>> [apiv2][query] PATCH https://firebasehosting.googleapis.com/v1beta1/projects/363856009923/sites/ficadex-c3633/versions/fc327dbd581fff3f updateMask=status%2Cconfig
+[debug] [2022-08-25T23:18:32.206Z] >>> [apiv2][body] PATCH https://firebasehosting.googleapis.com/v1beta1/projects/363856009923/sites/ficadex-c3633/versions/fc327dbd581fff3f {"status":"FINALIZED","config":{"rewrites":[{"glob":"**","path":"/index.html"}]}}
+[debug] [2022-08-25T23:18:33.622Z] <<< [apiv2][status] PATCH https://firebasehosting.googleapis.com/v1beta1/projects/363856009923/sites/ficadex-c3633/versions/fc327dbd581fff3f 200
+[debug] [2022-08-25T23:18:33.623Z] <<< [apiv2][body] PATCH https://firebasehosting.googleapis.com/v1beta1/projects/363856009923/sites/ficadex-c3633/versions/fc327dbd581fff3f {"name":"projects/363856009923/sites/ficadex-c3633/versions/fc327dbd581fff3f","status":"FINALIZED","config":{"rewrites":[{"glob":"**","path":"/index.html"}]},"labels":{"deployment-tool":"cli-firebase"},"createTime":"2022-08-25T23:18:26.816698Z","createUser":{"email":"rubs99rstd@gmail.com"},"finalizeTime":"2022-08-25T23:18:34.228810Z","finalizeUser":{"email":"rubs99rstd@gmail.com"}}
+[debug] [2022-08-25T23:18:33.623Z] [hosting] finalized version for ficadex-c3633:[object Object]
+[info] +  hosting[ficadex-c3633]: version finalized 
+[info] i  hosting[ficadex-c3633]: releasing new version... 
+[debug] [2022-08-25T23:18:33.624Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/projects/363856009923/sites/ficadex-c3633/releases versionName=projects%2F363856009923%2Fsites%2Fficadex-c3633%2Fversions%2Ffc327dbd581fff3f
+[debug] [2022-08-25T23:18:33.625Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/363856009923/sites/ficadex-c3633/releases {"message":null}
+[debug] [2022-08-25T23:18:35.077Z] <<< [apiv2][status] POST https://firebasehosting.googleapis.com/v1beta1/projects/363856009923/sites/ficadex-c3633/releases 200
+[debug] [2022-08-25T23:18:35.077Z] <<< [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/363856009923/sites/ficadex-c3633/releases {"name":"projects/363856009923/sites/ficadex-c3633/releases/1661469514947720","version":{"name":"projects/363856009923/sites/ficadex-c3633/versions/fc327dbd581fff3f","status":"FINALIZED","config":{"rewrites":[{"glob":"**","path":"/index.html"}]},"labels":{"deployment-tool":"cli-firebase"},"createTime":"2022-08-25T23:18:26.816698Z","createUser":{"email":"rubs99rstd@gmail.com","imageUrl":"https://lh3.googleusercontent.com/a-/AFdZucoupxhObMquR_hc7qWNuVZ6hs_ASekNxE4pbGjrmg"},"finalizeTime":"2022-08-25T23:18:34.228810Z","finalizeUser":{"email":"rubs99rstd@gmail.com","imageUrl":"https://lh3.googleusercontent.com/a-/AFdZucoupxhObMquR_hc7qWNuVZ6hs_ASekNxE4pbGjrmg"}},"type":"DEPLOY","releaseTime":"2022-08-25T23:18:34.947720181Z","releaseUser":{"email":"rubs99rstd@gmail.com","imageUrl":"https://lh3.googleusercontent.com/a-/AFdZucoupxhObMquR_hc7qWNuVZ6hs_ASekNxE4pbGjrmg"}}
+[debug] [2022-08-25T23:18:35.077Z] [hosting] release: {"name":"projects/363856009923/sites/ficadex-c3633/releases/1661469514947720","version":{"name":"projects/363856009923/sites/ficadex-c3633/versions/fc327dbd581fff3f","status":"FINALIZED","config":{"rewrites":[{"glob":"**","path":"/index.html"}]},"labels":{"deployment-tool":"cli-firebase"},"createTime":"2022-08-25T23:18:26.816698Z","createUser":{"email":"rubs99rstd@gmail.com","imageUrl":"https://lh3.googleusercontent.com/a-/AFdZucoupxhObMquR_hc7qWNuVZ6hs_ASekNxE4pbGjrmg"},"finalizeTime":"2022-08-25T23:18:34.228810Z","finalizeUser":{"email":"rubs99rstd@gmail.com","imageUrl":"https://lh3.googleusercontent.com/a-/AFdZucoupxhObMquR_hc7qWNuVZ6hs_ASekNxE4pbGjrmg"}},"type":"DEPLOY","releaseTime":"2022-08-25T23:18:34.947720181Z","releaseUser":{"email":"rubs99rstd@gmail.com","imageUrl":"https://lh3.googleusercontent.com/a-/AFdZucoupxhObMquR_hc7qWNuVZ6hs_ASekNxE4pbGjrmg"}}
+[info] +  hosting[ficadex-c3633]: release complete 
+[info] 
+[info] +  Deploy complete! 
+[info] 
+[info] Project Console: https://console.firebase.google.com/project/ficadex-c3633/overview
+[info] Hosting URL: https://ficadex-c3633.web.app
+[debug] [2022-08-25T23:18:53.547Z] Error: Timed out.
+    at Timeout._onTimeout (C:\Users\RUBENS\AppData\Roaming\npm\node_modules\firebase-tools\lib\utils.js:253:49)
+    at listOnTimeout (node:internal/timers:564:17)
+    at process.processTimers (node:internal/timers:507:7)
+[error] 
+[error] Error: An unexpected error has occurred.

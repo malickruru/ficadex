@@ -1,4 +1,6 @@
 import React, { useEffect } from "react";
+import BackToTop from "../../Component/BackToTop";
+import Chat from "../../Component/Chat";
 import Footer from "../../Component/Footer";
 import Header from "../../Component/Header";
 import ScrollProp from "../../Utils/ScrollProp";
@@ -38,6 +40,8 @@ function Home(props) {
         <Section7 />
       </div>
       <Footer />
+      <BackToTop />
+      <Chat />
     </>
   );
 }

@@ -16,6 +16,9 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-family: "Open sans";
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 a {
@@ -30,4 +33,46 @@ a {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.backToTop {
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 40px;
+  font-size: 1.5em;
+  color: #fff;
+  border-radius: 15px;
+  bottom: 15px;
+  right: 15px;
+}
+
+.chat {
+  position: fixed;
+  background-color: #dd9933;
+  width: 60px;
+  height: 60px;
+  font-size: 1.8em;
+  color: #fff;
+  border-radius: 50%;
+  bottom: 15px;
+  left: 15px;
+}
+
+.mobilemenu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  right: 0;
+  background-color: #fff;
+  z-index: 100;
+}
+
+.borderBottom {
+  border-bottom: #000 1px solid;
+}
+
+.w100 {
+  width: 100%;
 }

@@ -35,3 +35,29 @@
   font-size: 30px;
   color: #910b0b;
 }
+
+/* search */
+.searchSection {
+  background-color: #fff;
+  color: #fff;
+  padding: 0;
+  align-items: center;
+  height: 0;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+.searchSection > .input-1 {
+  border: none;
+  margin: 0 10px;
+  background-color: transparent !important;
+  outline: none;
+}
+
+.dropdown {
+  background-color: #fff;
+
+  padding: 0;
+  height: 0;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
