@@ -10,4 +10,16 @@
   .desktop-only {
     display: none;
   }
+
+  /* home */
+  .HomeBanner {
+    height: 50vh;
+  }
+
+  .mobile-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }

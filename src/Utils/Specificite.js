@@ -1,7 +1,7 @@
 export const Specificite = [
   {
     nom: "Création d'entreprise",
-    src: "https://images.pexels.com/photos/27406/pexels-photo-27406.jpg?auto=compress&cs=tinysrgb&w=400",
+    src: "https://images.pexels.com/photos/27406/pexels-photo-27406.jpg?auto=compress&cs=tinysrgb&w=2000",
   },
   {
     nom: "Patrimoine",
@@ -9,43 +9,43 @@ export const Specificite = [
   },
   {
     nom: "Comptabilité",
-    src: "https://images.pexels.com/photos/45708/pexels-photo-45708.jpeg?auto=compress&cs=tinysrgb&w=400",
+    src: "https://images.pexels.com/photos/45708/pexels-photo-45708.jpeg?auto=compress&cs=tinysrgb&w=2000",
   },
   {
     nom: "Ingénieurie financière",
-    src: "https://images.pexels.com/photos/210607/pexels-photo-210607.jpeg?auto=compress&cs=tinysrgb&w=400",
+    src: "https://images.pexels.com/photos/210607/pexels-photo-210607.jpeg?auto=compress&cs=tinysrgb&w=2000",
   },
   {
     nom: "Social/Juridique",
-    src: "https://images.pexels.com/photos/5669619/pexels-photo-5669619.jpeg?auto=compress&cs=tinysrgb&w=400",
+    src: "https://images.pexels.com/photos/5669619/pexels-photo-5669619.jpeg?auto=compress&cs=tinysrgb&w=2000",
   },
   {
     nom: "Formation",
-    src: "https://images.pexels.com/photos/5154380/pexels-photo-5154380.jpeg?auto=compress&cs=tinysrgb&w=400",
+    src: "https://images.pexels.com/photos/5154380/pexels-photo-5154380.jpeg?auto=compress&cs=tinysrgb&w=2000",
   },
   {
     nom: "Carosserie",
-    src: "https://images.pexels.com/photos/3642618/pexels-photo-3642618.jpeg?auto=compress&cs=tinysrgb&w=400",
+    src: "https://images.pexels.com/photos/3642618/pexels-photo-3642618.jpeg?auto=compress&cs=tinysrgb&w=2000",
   },
   {
     nom: "Association",
-    src: "https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&w=400",
+    src: "https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&w=2000",
   },
   {
     nom: "Secteur public",
-    src: "https://images.pexels.com/photos/959256/bundestag-reichstag-berlin-bundestagswahl-959256.jpeg?auto=compress&cs=tinysrgb&w=400",
+    src: "https://images.pexels.com/photos/959256/bundestag-reichstag-berlin-bundestagswahl-959256.jpeg?auto=compress&cs=tinysrgb&w=2000",
   },
   {
     nom: "Audiovisuel",
-    src: "https://images.pexels.com/photos/13348768/pexels-photo-13348768.jpeg?auto=compress&cs=tinysrgb&w=400",
+    src: "https://images.pexels.com/photos/13348768/pexels-photo-13348768.jpeg?auto=compress&cs=tinysrgb&w=2000",
   },
   {
     nom: "Secteur médical",
-    src: "https://images.pexels.com/photos/2280571/pexels-photo-2280571.jpeg?auto=compress&cs=tinysrgb&w=400",
+    src: "https://images.pexels.com/photos/2280571/pexels-photo-2280571.jpeg?auto=compress&cs=tinysrgb&w=2000",
   },
   {
     nom: "Club de sport",
-    src: "https://images.pexels.com/photos/841130/pexels-photo-841130.jpeg?auto=compress&cs=tinysrgb&w=400",
+    src: "https://images.pexels.com/photos/841130/pexels-photo-841130.jpeg?auto=compress&cs=tinysrgb&w=2000",
   },
   {
     nom: "Huissier de justice",
@@ -53,19 +53,19 @@ export const Specificite = [
   },
   {
     nom: "Production et distribution",
-    src: "https://images.pexels.com/photos/2760241/pexels-photo-2760241.jpeg?auto=compress&cs=tinysrgb&w=400",
+    src: "https://images.pexels.com/photos/2760241/pexels-photo-2760241.jpeg?auto=compress&cs=tinysrgb&w=2000",
   },
   {
     nom: "Pharmacie",
-    src: "https://images.pexels.com/photos/3987224/pexels-photo-3987224.jpeg?auto=compress&cs=tinysrgb&w=400",
+    src: "https://images.pexels.com/photos/3987224/pexels-photo-3987224.jpeg?auto=compress&cs=tinysrgb&w=2000",
   },
   {
     nom: "Profession libérale",
-    src: "https://images.pexels.com/photos/1438081/pexels-photo-1438081.jpeg?auto=compress&cs=tinysrgb&w=400",
+    src: "https://images.pexels.com/photos/1438081/pexels-photo-1438081.jpeg?auto=compress&cs=tinysrgb&w=2000",
   },
   {
     nom: "Garage ",
-    src: "https://images.pexels.com/photos/2244746/pexels-photo-2244746.jpeg?auto=compress&cs=tinysrgb&w=400",
+    src: "https://images.pexels.com/photos/2244746/pexels-photo-2244746.jpeg?auto=compress&cs=tinysrgb&w=2000",
   },
   {
     nom: "Comité d'entreprise",
@@ -73,10 +73,10 @@ export const Specificite = [
   },
   {
     nom: "Hotel-restaurant",
-    src: "https://images.pexels.com/photos/262978/pexels-photo-262978.jpeg?auto=compress&cs=tinysrgb&w=400",
+    src: "https://images.pexels.com/photos/262978/pexels-photo-262978.jpeg?auto=compress&cs=tinysrgb&w=2000",
   },
   {
     nom: "Taxis",
-    src: "https://images.pexels.com/photos/8247/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=400",
+    src: "https://images.pexels.com/photos/8247/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=2000",
   },
 ];

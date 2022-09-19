@@ -1,15 +1,20 @@
-import { flexColumn, flexRowCenter } from "../Style/Flex";
+import { flexRowCenter } from "../Style/Flex";
 
-function Card({ srcImg, productName }) {
+function Card({ srcImg, productName, func }) {
   return (
-    <div style={flexColumn} className="ProductCard">
-      <div className="ProductCard-img">
-        <img src={srcImg} />
-        <div className="ProductCard-img-anim" style={flexRowCenter}>
-          <h6>En savoir +</h6>
-        </div>
+    <div className="ProductCard-img">
+      <img src={srcImg} />
+      <div className="ProductCard-txt">
+        <h4>{productName}</h4>
+        <h6>Lire la suite</h6>
       </div>
-      <h4 className="text-center">{productName}</h4>
+      <button
+        className="ProductCard-cancel"
+        style={flexRowCenter}
+        onClick={func}
+      >
+        <i className="bi bi-x" style={{ fontSize: "3em" }}></i>
+      </button>
     </div>
   );
 }

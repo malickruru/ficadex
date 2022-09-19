@@ -1,15 +1,17 @@
 import React from "react";
-import { flexColumn } from "../Style/Flex";
+import { flexColumn, flexRowAround, flexRowCenter } from "../Style/Flex";
 import Row from "./Row";
+import Btn from "./Btn";
 
 function Footer(props) {
   return (
     <div className="container-fluid">
-      <Row
-        styles={{ backgroundColor: "#222222", color: "#fff", padding: "30px" }}
-      >
-        <div className="col-sm-6 px-5">
-          <h6>FICADEX</h6>
+      <Row>
+        <div className="col-sm-4" style={flexColumn}>
+          <img src="./image/ficadex_groupe.png" />
+        </div>
+
+        <div className="col-sm-4 px-5 mobile-center">
           <br />
           <span>TOUR CIT</span>
           <br />
@@ -21,18 +23,17 @@ function Footer(props) {
           <br />
           <span>contact@ficadex.com</span>
         </div>
-        <div className="col-sm-6" style={flexColumn}>
-          <img src="./image/ficadex_groupe.png" />
+        <div className="col-sm-4 px-5 " style={flexRowCenter}>
+          <Btn rounded={true} customClass={"m-3"}>
+            <i className="bi bi-facebook"> </i>
+          </Btn>
+          <Btn rounded={true} customClass={"m-3"}>
+            <i className="bi bi-twitter"> </i>
+          </Btn>
+          <Btn rounded={true} customClass={"m-3"}>
+            <i className="bi bi-instagram"> </i>
+          </Btn>
         </div>
-      </Row>
-      <Row
-        styles={{
-          backgroundColor: "#1f1f1f",
-
-          color: "#fff",
-        }}
-      >
-        <p className="text-center">Designed by D.S.C. Conseil</p>
       </Row>
     </div>
   );

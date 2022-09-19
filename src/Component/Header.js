@@ -8,13 +8,27 @@ import {
   flexColumnRight,
   flexLeft,
 } from "../Style/Flex";
-import { NavLink, Outlet, Link } from "react-router-dom";
+import { NavLink, Outlet, Link, useNavigate } from "react-router-dom";
 import Row from "./Row";
 import { Links } from "../Utils/Links";
 
+function CustomLink({ nom, func, link }) {
+  let url = link === "/" ? "/" : "/" + link;
+  const navigate = useNavigate();
+  const handleClick = () => {
+    func();
+    navigate(url);
+  };
+  return (
+    <div className="customLink" onClick={handleClick}>
+      <h3>{nom}</h3>
+    </div>
+  );
+}
+
 function Header() {
   let activeClassName = "active";
-  const [menuOpen, setMenuOpen] = useState(false);
+  // const [menuOpen, setMenuOpen] = useState(false);
   const search = useRef(null);
   const metier = useRef(null);
   const bureau = useRef(null);
@@ -61,6 +75,14 @@ function Header() {
     hideDropdown(CurrentRef);
   };
 
+  const openMenu = () => {
+    console.log("ok");
+    document.querySelector(".mobilemenu").style.width = "100vw";
+  };
+  const closeMenu = () => {
+    document.querySelector(".mobilemenu").style.width = "0px";
+  };
+
   return (
     <>
       <div className="container">
@@ -101,7 +123,7 @@ function Header() {
               </div>
               <div
                 className="mobile-only Header-burgerMenu px-1 click"
-                onClick={() => setMenuOpen(true)}
+                onClick={() => openMenu()}
               >
                 <i className="bi bi-list"></i>
               </div>
@@ -156,33 +178,25 @@ function Header() {
           </Link>
         </div>
 
-        {menuOpen && (
-          <div className="mobilemenu" style={flexColumnRight}>
-            <div style={flexLeft} className="w100">
-              <i
-                style={{ color: "#000", fontSize: "2em" }}
-                className="bi bi-x click"
-                onClick={() => setMenuOpen(false)}
-              ></i>
-            </div>
-            {Links.map((item, idx) => {
-              return (
-                <NavLink
-                  to={item.url}
-                  className={({ isActive }) =>
-                    isActive
-                      ? "Header-link borderBottom p-3 w100 " + activeClassName
-                      : "Header-link borderBottom p-3 w100"
-                  }
-                  onMouseEnter={() => handleMouseEnter(item.dropdown, item.ref)}
-                  // onMouseLeave={handleMouseLeave}
-                >
-                  {item.nom}
-                </NavLink>
-              );
-            })}
+        <div className="mobilemenu" style={flexColumnRight}>
+          <div style={flexLeft} className="w100">
+            <i
+              style={{ color: "#000", fontSize: "2em" }}
+              className="bi bi-x click"
+              onClick={() => closeMenu()}
+            ></i>
           </div>
-        )}
+          {Links.map((item, idx) => {
+            return (
+              <CustomLink
+                nom={item.nom}
+                key={idx}
+                func={() => closeMenu()}
+                link={item.url}
+              />
+            );
+          })}
+        </div>
       </div>
 
       <Outlet />

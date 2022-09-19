@@ -55,9 +55,18 @@
 
 .dropdown {
   background-color: #fff;
-
   padding: 0;
   height: 0;
   overflow: hidden;
   transition: all 0.3s ease;
+}
+
+.customLink {
+  padding: 15px 30px;
+  cursor: pointer;
+}
+
+.customLink:hover {
+  color: #910b0b;
+  transform: translateX(5px);
 }

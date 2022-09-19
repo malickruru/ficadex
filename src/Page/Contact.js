@@ -3,12 +3,8 @@ import Footer from "../Component/Footer";
 import Form from "react-bootstrap/Form";
 import Row from "../Component/Row";
 import { Button } from "react-bootstrap";
-import ScrollProp from "../Utils/ScrollProp";
 
 function Contact(props) {
-  useEffect(() => {
-    ScrollProp();
-  }, []);
   return (
     <>
       <div className="container">

@@ -3,6 +3,7 @@
 @import url("Card.css");
 @import url("Sections.css");
 @import url("Number.css");
+@import url("Home.css");
 
 /*font*/
 /*open sans*/
@@ -19,6 +20,10 @@ body {
   padding: 0;
   box-sizing: border-box;
   overflow-x: hidden;
+}
+
+.p0 {
+  padding: 0 !important;
 }
 
 a {
@@ -63,10 +68,13 @@ code {
   top: 0;
   left: 0;
   bottom: 0;
-  width: 100%;
+  width: 0;
   right: 0;
   background-color: #fff;
   z-index: 100;
+  padding: 0;
+  overflow: hidden;
+  transition: all 0.3s ease;
 }
 
 .borderBottom {
@@ -75,4 +83,45 @@ code {
 
 .w100 {
   width: 100%;
+}
+
+/* btn */
+
+.rond {
+  border-radius: 50%;
+  padding: 0 !important;
+  width: 50px;
+  height: 50px;
+}
+
+.CustomBtn-1 {
+  border: #000 solid 1px;
+  padding: 15px;
+  color: #000;
+  background-color: #fff;
+  transition: all 0.5s ease;
+  font-weight: 900;
+  max-width: 200px;
+  cursor: pointer;
+}
+
+.CustomBtn-1:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.next {
+  border-left: rgba(0, 0, 0, 0.309) 1px solid;
+}
+
+.next > i {
+  transition: all 0.3s ease;
+}
+
+.next:hover {
+  cursor: pointer;
+}
+
+.next:hover > i {
+  transform: translateX(10px);
 }
